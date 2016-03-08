@@ -44,6 +44,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="fill"
-        android:src="@drawable/dhis2_logo" />
+        android:src="@drawable/ndoh_hi_res_512" />
 
 </FrameLayout>
