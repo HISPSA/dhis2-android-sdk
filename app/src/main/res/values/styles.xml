@@ -50,4 +50,16 @@
         <item name="android:divider">@null</item>
     </style>
 
+    <!-- @Arthur: Spinner dropdown for URL Selection-->
+    <style name="serverurl_spinner_style" >
+        <item name="android:background">@drawable/serverurl_spinner_bg</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>

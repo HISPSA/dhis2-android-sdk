@@ -58,7 +58,7 @@
             android:contentDescription="@string/description"
             android:src="@drawable/dhis2_logo" />
 
-        <org.hisp.dhis.android.sdk.ui.views.FontEditText
+      <!--  <org.hisp.dhis.android.sdk.ui.views.FontEditText
             android:id="@+id/server_url"
             android:layout_width="match_parent"
             android:layout_height="44dp"
@@ -72,7 +72,19 @@
             android:paddingLeft="7dp"
             android:singleLine="true"
             android:textSize="@dimen/medium_text_size"
-            app:font="@string/regular_font_name" />
+            app:font="@string/regular_font_name" /> -->
+
+        <!--@Arthur: Remove FontEdit and Replace with Spinner container -->
+        <Spinner
+            android:id="@+id/server_url"
+            android:layout_width="360dp"
+            android:layout_height="44dp"
+            android:entries = "@array/url_array"
+            android:singleLine="true"
+            android:layout_marginBottom="1px"
+            android:paddingLeft="35dp"
+            android:spinnerMode="dropdown"
+            style= "@style/serverurl_spinner_style" />
 
         <org.hisp.dhis.android.sdk.ui.views.FontEditText
             android:id="@+id/username"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--@Arthur:Draw and add internet globe inside the spinner -->
+    <item><layer-list>
+        <item><shape>
+            <gradient android:angle="90" android:endColor="#ffffff" android:startColor="#ffffff" android:type="linear" />
+            <stroke android:width="1dp" android:color="#504a4b" />
+            <padding android:bottom="4dp" android:left="8dp" android:right="3dp" android:top="3dp" />
+        </shape></item>
+        <item ><bitmap android:gravity="bottom|left" android:src="@drawable/ic_server" />
+        </item>
+    </layer-list></item>
+
+</selector>
